@@ -1,0 +1,482 @@
+@font-face {
+  font-family: "Exo2";
+  src: url(../fonts/Exo2-Regular.ttf);
+}
+@font-face {
+  font-family: "PT Sans";
+  src: url(../fonts/PTSans-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+body {
+  font-family: "Exo2, sans-serif";
+  font-family: "PT Sans, sans-serif";
+}
+a {
+  text-decoration: none;
+}
+
+.all-first-section {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+.hero-img2 {
+  display: none;
+}
+.all-first-section .first-section-texts {
+  padding-top: 190px;
+  padding-bottom: 67px;
+}
+
+.all-first-section .first-section-texts h1 {
+  width: 610px;
+  height: 119px;
+  top: 190px;
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Exo2;
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 65px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+  padding-bottom: 40px;
+}
+
+.all-first-section .first-section-texts p {
+  width: 525px;
+  height: 66px;
+  top: 349px;
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+  padding-top: 40px;
+  padding-bottom: 55px;
+}
+
+.all-first-section .first-section-texts h5 {
+  width: 105px;
+  height: 27px;
+  font-family: "PT Sans";
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 50px;
+  border-bottom: 3px solid rgb(255, 206, 80);
+}
+
+.all-first-section {
+  padding-bottom: 67px;
+}
+
+body .first-section-image {
+  padding-top: 109px;
+  padding-right: 80px;
+}
+.about-rek {
+  padding-right: 100px;
+  padding-top: 40px;
+  padding-bottom: 56px;
+  padding-left: 100px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1490196078);
+  width: 1240px;
+  height: 341px;
+  margin-left: 80px;
+  gap: 0px;
+  border-radius: 20px;
+  opacity: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rek-1 h3 {
+  width: 228px;
+  height: 48px;
+  top: 837px;
+  left: 180px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Exo2;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: #363738;
+  padding-bottom: 16px;
+}
+.rek-2 h3 {
+  width: 228px;
+  height: 48px;
+  top: 837px;
+  left: 180px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Exo2;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: #363738;
+  padding-bottom: 16px;
+  display: inline-block;
+}
+.rek-3 h3 {
+  width: 228px;
+  height: 48px;
+  top: 837px;
+  left: 180px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Exo2;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: #363738;
+  padding-bottom: 16px;
+}
+.rek-1 p {
+  width: 225px;
+  height: 65px;
+  top: 901px;
+  left: 180px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6b6b6c;
+  padding-top: 16px;
+}
+.rek-2 p {
+  width: 225px;
+  height: 65px;
+  top: 901px;
+  left: 180px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6b6b6c;
+  padding-top: 16px;
+}
+.rek-3 p {
+  width: 225px;
+  height: 65px;
+  top: 901px;
+  left: 180px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6b6b6c;
+  padding-top: 16px;
+}
+.rek-1 img {
+  padding-bottom: 24px;
+}
+.rek-2 img {
+  padding-bottom: 24px;
+}
+.rek-3 img {
+  padding-bottom: 24px;
+}
+
+.half-img-and-icons {
+  padding-top: 67px;
+  padding-left: 100px;
+}
+
+.icn-txt1 {
+  display: flex;
+}
+
+.icn-txt2 {
+  display: flex;
+}
+
+.icon-1 {
+  display: flex;
+  gap: 40px;
+  padding-top: 72px;
+  /* padding-bottom: 62px; */
+  padding-left: 100px;
+}
+
+.icon-text h4 {
+  width: 327px;
+  height: 21px;
+  top: 1615px;
+  left: 284px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Exo2;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: #363738;
+  padding-bottom: 16px;
+}
+
+.icon-text p {
+  width: 291px;
+  height: 41px;
+  top: 1652px;
+  left: 284px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6b6b6c;
+  padding-top: 16px;
+}
+
+.big-texts {
+  padding-top: 120px;
+  padding-bottom: 32px;
+}
+.work {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.big-texts h1 {
+  width: 687px;
+  height: 49px;
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Exo2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+}
+
+.big-texts p {
+  width: 667px;
+  height: 41px;
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+  color: rgb(107, 107, 108);
+  padding-top: 32px;
+  padding-bottom: 49px;
+  font-family: "PT Sans";
+}
+
+.work-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+
+.card {
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 20px;
+  height: 440px;
+}
+
+.card-title {
+  font-family: "Exo2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: rgba(54, 55, 56, 1);
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+.card-body {
+  padding-left: 32px;
+  padding-right: 34px;
+}
+.card-text {
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(107, 107, 108, 1);
+  padding-bottom: 28px;
+}
+.sum {
+  font-family: "Exo 2";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.6px;
+  text-align: left;
+  color: rgba(54, 55, 56, 1);
+  border-bottom: 3px solid rgba(255, 206, 80, 1);
+  margin-bottom: 32px;
+}
+
+// .overlay {
+//   position: fixed; /* Sit on top of the page content */
+//   display: none; /* Hidden by default */
+//   width: 100%; /* Full width (cover the whole page) */
+//   height: 100%; /* Full height (cover the whole page) */
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+//   z-index-x: 2; /* Specify a stack order in case you're using a different order for other elements */
+//   cursor: pointer; /* Add a pointer on hover */
+// }
+.export-card1 {
+  padding-top: 32px;
+  padding-left: 96px;
+  padding-right: 132px;
+  padding-bottom: 32px;
+  margin-bottom: 24px;
+}
+.export-title {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 100px;
+  line-height: 60px;
+  text-align: left;
+  color: rgb(26, 26, 27);
+  padding-top: 80px;
+  padding-bottom: 48px;
+  padding-left: 100px;
+}
+.export-card1 {
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 20px;
+  // height: 440px;
+  display: flex;
+  align-items: center;
+  gap: 56px;
+  width: 1183px;
+}
+.export-card-text1 h3 {
+  display: inline-block;
+  font-family: "Exo 2";
+  color: rgba(54, 55, 56, 1);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  padding-bottom: 24px;
+  border-bottom: 3px solid rgba(255, 206, 80, 1);
+}
+.export-card-text1 p {
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  width: 568px;
+  color: rgba(107, 107, 108, 1);
+  padding-top: 24px;
+}
+.export-cards {
+  padding-left: 149px;
+  padding-right: 70px;
+}
+.export-img {
+  padding-left: 95px;
+  padding-top: 62px;
+}
+
+
+// .site-footer {
+//   margin-top: 166px;
+//   background-color: rgba(11, 117, 114, 1);
+//   width: 1460px;
+// }
+
+// @media screen and (max-width: 672px) {
+//   .all-first-section {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     flex-wrap: wrap;
+//   }
+//   .hero-img1 {
+//     display: none;
+//   }
+//   .hero-img2 {
+//     display: block;
+//     align-items: center;
+//     padding-left: 39px;
+//   }
+//   .all-first-section .first-section-texts {
+//     padding-top: 117px;
+//     padding-bottom: 41px;
+//   }
+//   .first-section-texts h1 {
+//     font-family: "Exo 2";
+//     font-size: 44px;
+//     font-weight: 600;
+//     line-height: 55px;
+//     text-align: center;
+//     color: rgb(54, 55, 56);
+//     padding-bottom: 49px;
+//     padding-left: 39px;
+//   }
+
+//   .first-section-texts p {
+//     font-family: PT Sans;
+//     font-size: 16px;
+//     font-weight: 400;
+//     line-height: 24px;
+//     text-align: center;
+//     color: rgba(107, 107, 108, 1);
+//     padding-left: 39px;
+//   }
+
+//   .first-section-texts h5 {
+//     width: 105px;
+//     height: 27px;
+//     font-family: "PT Sans";
+//     font-size: 16px;
+//     font-weight: 700;
+//     line-height: 24px;
+//     text-align: left;
+//     margin-left: 332px;
+
+//     margin-top: 50px;
+//     border-bottom: 3px solid rgb(255, 206, 80);
+//   }
+
+//   .all-first-section {
+//     padding-bottom: 67px;
+//   }
+//   .about-rek {
+//     display: flex;
+//     flex-direction: column;
+//   }
+// }

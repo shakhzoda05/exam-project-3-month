@@ -1,0 +1,461 @@
+@font-face {
+  font-family: Exo2;
+  src: url(../fonts/Exo2-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+body {
+  font-family: "Exo2, sans-serif";
+}
+
+.all-first-section {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.all-first-section .first-section-texts {
+  padding-top: 190px;
+  padding-bottom: 67px;
+}
+
+.all-first-section .first-section-texts h1 {
+  width: 610px;
+  height: 119px;
+  top: 190px;
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Exo2;
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 65px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+  padding-bottom: 40px;
+}
+
+.all-first-section .first-section-texts p {
+  width: 525px;
+  height: 66px;
+  top: 349px;
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.all-first-section .first-section-texts h5 {
+  width: 105px;
+  height: 27px;
+  /* top: 455px; */
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  border-bottom: 3px solid rgb(255, 206, 80);
+}
+
+.all-first-section {
+  padding-bottom: 67px;
+}
+
+body .first-section-image {
+  padding-top: 109px;
+  padding-right: 80px;
+  /* padding-right: 100px; */
+} 
+.about-rek {
+  padding-right: 100px;
+  padding-top: 40px;
+  padding-bottom: 56px;
+  padding-left: 100px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1490196078);
+  width: 1240px;
+  height: 341px;
+  margin-left: 80px;
+  gap: 0px;
+  border-radius: 20px;
+  opacity: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rek-1 h3 {
+  width: 228px;
+  height: 48px;
+  top: 837px;
+  left: 180px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Exo2;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: #363738;
+  padding-bottom: 16px;
+}
+
+.rek-1 p {
+  width: 225px;
+  height: 65px;
+  top: 901px;
+  left: 180px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6b6b6c;
+  padding-top: 16px;
+}
+
+.rek-1 img {
+  padding-bottom: 24px;
+}
+
+.half-img-and-icons {
+  padding-top: 67px;
+  padding-left: 100px;
+}
+
+.icn-txt1 {
+  display: flex;
+}
+
+.icn-txt2 {
+  display: flex;
+}
+
+.icon-1 {
+  display: flex;
+  gap: 40px;
+  padding-top: 72px;
+  /* padding-bottom: 62px; */
+  padding-left: 100px;
+}
+
+.icon-text h4 {
+  width: 327px;
+  height: 21px;
+  top: 1615px;
+  left: 284px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Exo2;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: #363738;
+  padding-bottom: 16px;
+}
+
+.icon-text p {
+  width: 291px;
+  height: 41px;
+  top: 1652px;
+  left: 284px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6b6b6c;
+  padding-top: 16px;
+}
+
+.big-texts {
+  padding-top: 120px;
+  padding-bottom: 32px;
+}
+
+.big-texts h1 {
+  width: 687px;
+  height: 49px;
+  top: 1957px;
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Exo2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+}
+
+.big-texts p {
+  width: 667px;
+  height: 41px;
+  top: 2038px;
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+  color: rgb(107, 107, 108);
+  padding-top: 32px;
+  padding-bottom: 56px;
+}
+
+.work-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+
+.card {
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 20px;
+}
+
+.card-body h5 {
+  width: 327px;
+  height: 21px;
+  top: 2406px;
+  left: 132px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Exo2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+  padding-top: 24px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+}
+
+.card-body p {
+  width: 291px;
+  height: 41px;
+  top: 2443px;
+  left: 132px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "PT Sans";
+  padding-left: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+  padding-top: 16px;
+  padding-bottom: 32px;
+}
+
+.sum {
+  width: 92px;
+  height: 27px;
+  top: 2516px;
+  left: 132px;
+  gap: 0px;
+  opacity: 0px;
+  background: rgb(54, 55, 56);
+  border-bottom: 3px solid rgb(255, 206, 80);
+}
+
+.card-body strong {
+  padding-top: 32px;
+  padding-left: 32px;
+  /* padding-bottom: 32px; */
+}
+
+@media (max-width: 1440px) {
+  @font-face {
+    font-family: Exo2;
+    src: url(../fonts/Exo2-Regular.ttf);
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  body {
+    font-family: Exo2, sans-serif;
+  }
+  .all-first-section {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  .all-first-section .first-section-texts {
+    padding-top: 190px;
+    padding-bottom: 67px;
+  }
+  .all-first-section .first-section-texts h1 {
+    width: 610px;
+    height: 119px;
+    top: 190px;
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Exo 2;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: left;
+    color: rgb(54, 55, 56);
+    padding-bottom: 40px;
+  }
+  .all-first-section .first-section-texts p {
+    width: 525px;
+    height: 66px;
+    top: 349px;
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgb(107, 107, 108);
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .all-first-section .first-section-texts h5 {
+    width: 105px;
+    height: 27px;
+    /* top: 455px; */
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-bottom: 3px solid rgb(255, 206, 80);
+  }
+  .all-first-section {
+    padding-bottom: 67px;
+  }
+  body .first-section-image {
+    padding-top: 109px;
+    padding-right: 80px;
+    /* padding-right: 100px; */
+  } 
+  .about-rek {
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 56px;
+    padding-left: 100px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1490196078);
+    width: 1240px;
+    height: 341px;
+    margin-left: 80px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .rek-1 h3 {
+    width: 228px;
+    height: 48px;
+    top: 837px;
+    left: 180px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Exo 2;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    color: #363738;
+    padding-bottom: 16px;
+  }
+  .rek-1 p {
+    width: 225px;
+    height: 65px;
+    top: 901px;
+    left: 180px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #6b6b6c;
+    padding-top: 16px;
+  }
+  .rek-1 img {
+    padding-bottom: 24px;
+  }
+  .half-img-and-icons {
+    padding-top: 67px;
+    padding-left: 100px;
+  }
+  .icn-txt1 {
+    display: flex;
+  }
+  .icn-txt2 {
+    display: flex;
+  }
+  .icon-1 {
+    display: flex;
+    gap: 40px;
+    padding-top: 72px;
+    /* padding-bottom: 62px; */
+    padding-left: 100px;
+  }
+  .icon-text h4 {
+    width: 327px;
+    height: 21px;
+    top: 1615px;
+    left: 284px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Exo 2;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    color: #363738;
+    padding-bottom: 16px;
+  }
+  .icon-text p {
+    width: 291px;
+    height: 41px;
+    top: 1652px;
+    left: 284px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #6b6b6c;
+    padding-top: 16px;
+  }
+}/*# sourceMappingURL=style.css.map */
